@@ -124,4 +124,4 @@ function stop(message, serverQueue) {
     queue.delete(message.guild.id);
 }
 
-client.login(token);
+client.login(process.env.t);
